@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct BottomCardView: View {
+    @Binding var show: Bool
+    
     var body: some View {
         VStack(spacing: 20.0) {
             Rectangle()
@@ -18,6 +20,11 @@ struct BottomCardView: View {
                 .multilineTextAlignment(.center)
                 .font(.subheadline)
                 .lineSpacing(4.0)
+            
+            RingView(color1: Color(hue: 0.545, saturation: 1.0, brightness: 1.0),
+                     color2: Color(hue: 0.655, saturation: 1.0, brightness: 0.996),
+                     width: 88, height: 88, percent: 78, show: $show)
+            
             Spacer()
         }
         .padding(.top, 8)
@@ -32,6 +39,6 @@ struct BottomCardView: View {
 
 struct BottomCardView_Previews: PreviewProvider {
     static var previews: some View {
-        BottomCardView()
+        BottomCardView(show: .constant(false))
     }
 }

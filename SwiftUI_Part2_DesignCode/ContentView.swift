@@ -84,9 +84,8 @@ struct ContentView: View {
                     }
                 )
             
-            BottomCardView()
-                //An offset of UIScreen.main.bounds.height for why will hide the card completely
-                .offset(x: 0.0, y: showBottomCard ? 310.0 : UIScreen.main.bounds.height)
+            BottomCardView(show: $showBottomCard)
+                .offset(x: 0, y: showBottomCard ? 360 : 1000)
                 .offset(y: bottomCardState.height)
                 .blur(radius: show ? 20 : 0)
                 .animation(.timingCurve(0.2, 0.8, 0.2, 1, duration: 0.8))
@@ -94,24 +93,24 @@ struct ContentView: View {
                     DragGesture().onChanged { value in
                         self.bottomCardState = value.translation
                         if self.showFull {
-                            self.bottomCardState.height += -250
+                            self.bottomCardState.height += -300
                         }
-                        if self.bottomCardState.height < -250 {
-                            self.bottomCardState.height = -250
-                        }
-                    }.onEnded { value in
-                        if self.bottomCardState.height > 105.0 {
-                            self.showBottomCard = false
-                        }
-                        
-                        if (self.bottomCardState.height < -100 && !self.showFull) || (self.bottomCardState.height < -175 && self.showFull) {
-                            self.bottomCardState.height = -250
-                            self.showFull = true
-                        } else {
-                            self.bottomCardState = .zero
-                            self.showFull = false
+                        if self.bottomCardState.height < -300 {
+                            self.bottomCardState.height = -300
                         }
                     }
+                        .onEnded { value in
+                            if self.bottomCardState.height > 50 {
+                                self.showBottomCard = false
+                            }
+                            if (self.bottomCardState.height < -100 && !self.showFull) || (self.bottomCardState.height < -250 && self.showFull) {
+                                self.bottomCardState.height = -300
+                                self.showFull = true
+                            } else {
+                                self.bottomCardState = .zero
+                                self.showFull = false
+                            }
+                        }
                 )
         }
     }
