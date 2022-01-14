@@ -51,7 +51,7 @@
 		2D48BB232783790100A0C5E4 /* BottomCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomCardView.swift; sourceTree = "<group>"; };
 		2D987F29278DC1D30095AF85 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SwiftUI_Part2_DesignCode/SwiftUI_Part2_DesignCode/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D987F2B278DC2230095AF85 /* SwiftUI-Part2-DesignCode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwiftUI-Part2-DesignCode-Info.plist"; sourceTree = SOURCE_ROOT; };
-		2DD932A1278F4AF70078CE37 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		2DD932A1278F4AF70078CE37 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RingView.swift; path = SwiftUI_Part2_DesignCode/SwiftUI_Part2_DesignCode/RingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
