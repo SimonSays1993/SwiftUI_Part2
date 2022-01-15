@@ -26,7 +26,6 @@ struct BottomCardView: View {
                 RingView(color1: Color(hue: 0.545, saturation: 1.0, brightness: 1.0),
                          color2: Color(hue: 0.655, saturation: 1.0, brightness: 0.996),
                          width: 88, height: 88, percent: 78, showProgressRing: $show)
-                    //.animation(.linear.delay(0.2), value: show)
                 
                 VStack(alignment: .leading, spacing: 8.0) {
                     Text("SwiftUI").fontWeight(.bold)
