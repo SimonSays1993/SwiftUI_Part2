@@ -51,6 +51,7 @@
 		2DB46E412791B400008C9D1A /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2DB46E2B2791B400008C9D1A /* OFL.txt */; };
 		2DB46E422791B400008C9D1A /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2DB46E2C2791B400008C9D1A /* README.txt */; };
 		2DB46E442791B609008C9D1A /* WatchRingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB46E432791B609008C9D1A /* WatchRingsView.swift */; };
+		2DB46E462796476F008C9D1A /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB46E452796476F008C9D1A /* CourseList.swift */; };
 		2DD932A2278F4AF70078CE37 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD932A1278F4AF70078CE37 /* RingView.swift */; };
 /* End PBXBuildFile section */
 
@@ -101,6 +102,7 @@
 		2DB46E2B2791B400008C9D1A /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		2DB46E2C2791B400008C9D1A /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		2DB46E432791B609008C9D1A /* WatchRingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchRingsView.swift; sourceTree = "<group>"; };
+		2DB46E452796476F008C9D1A /* CourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseList.swift; sourceTree = "<group>"; };
 		2DD932A1278F4AF70078CE37 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -176,6 +178,7 @@
 				2D3D2C9D278DA77000B02FC0 /* UpdateDetail.swift */,
 				2D3D2CA1278DB86A00B02FC0 /* TabBar.swift */,
 				2DB46E432791B609008C9D1A /* WatchRingsView.swift */,
+				2DB46E452796476F008C9D1A /* CourseList.swift */,
 			);
 			name = Views;
 			path = SwiftUI_Part2_DesignCode/SwiftUI_Part2_DesignCode/Views;
@@ -333,6 +336,7 @@
 				2D3D2C9E278DA77000B02FC0 /* UpdateDetail.swift in Sources */,
 				2D3D2C94278724F900B02FC0 /* Home.swift in Sources */,
 				2DB46E442791B609008C9D1A /* WatchRingsView.swift in Sources */,
+				2DB46E462796476F008C9D1A /* CourseList.swift in Sources */,
 				2D48BB0B277DF31C00A0C5E4 /* ContentView.swift in Sources */,
 				2D3D2C9A27887E0300B02FC0 /* SectionView.swift in Sources */,
 				2D48BB18277E2ACA00A0C5E4 /* CertificateView.swift in Sources */,

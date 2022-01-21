@@ -31,7 +31,7 @@ struct RingView: View {
                 .stroke(
                     LinearGradient(gradient: Gradient(colors: [color1, color2]), startPoint: .topTrailing, endPoint: .bottomLeading),
                     style: StrokeStyle(lineWidth: 5 * multiplier, lineCap: .round, lineJoin: .round, miterLimit: .infinity, dash: [20, 0], dashPhase: 0))
-                .animation(.easeInOut(duration: 1.0).delay(0.3), value: showProgressRing)
+                .animation(.easeInOut(duration: 0.5).delay(0.2), value: showProgressRing)
                 .rotationEffect(Angle(degrees: 90))
                 .rotation3DEffect(Angle(degrees: 180), axis: (x: 1, y: 0, z: 0))
                 .frame(width: width, height: height)
