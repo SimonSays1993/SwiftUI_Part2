@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2D1E117B278693850074A414 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1E117A278693850074A414 /* MenuView.swift */; };
+		2D34100C27A399BD00CA4BB1 /* CourseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D34100B27A399BD00CA4BB1 /* CourseDetail.swift */; };
 		2D3D2C94278724F900B02FC0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3D2C93278724F900B02FC0 /* Home.swift */; };
 		2D3D2C962788731000B02FC0 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3D2C952788731000B02FC0 /* AvatarView.swift */; };
 		2D3D2C982788751600B02FC0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3D2C972788751600B02FC0 /* HomeView.swift */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		2D1E117A278693850074A414 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		2D34100B27A399BD00CA4BB1 /* CourseDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetail.swift; sourceTree = "<group>"; };
 		2D3D2C93278724F900B02FC0 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		2D3D2C952788731000B02FC0 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
 		2D3D2C972788751600B02FC0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				2D3D2CA1278DB86A00B02FC0 /* TabBar.swift */,
 				2DB46E432791B609008C9D1A /* WatchRingsView.swift */,
 				2DB46E452796476F008C9D1A /* CourseList.swift */,
+				2D34100B27A399BD00CA4BB1 /* CourseDetail.swift */,
 			);
 			name = Views;
 			path = "SwiftUI_Part2-main/SwiftUI_Part2_DesignCode/Views";
@@ -227,6 +230,7 @@
 				2D1E117B278693850074A414 /* MenuView.swift in Sources */,
 				2D48BB242783790100A0C5E4 /* BottomCardView.swift in Sources */,
 				2DD932A2278F4AF70078CE37 /* RingView.swift in Sources */,
+				2D34100C27A399BD00CA4BB1 /* CourseDetail.swift in Sources */,
 				2D3D2C962788731000B02FC0 /* AvatarView.swift in Sources */,
 				2D48BB2227835DD900A0C5E4 /* SceneDelegate.swift in Sources */,
 				2D3D2C982788751600B02FC0 /* HomeView.swift in Sources */,
