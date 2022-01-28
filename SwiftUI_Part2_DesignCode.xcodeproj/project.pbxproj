@@ -29,6 +29,7 @@
 		2D48BB2027835DC700A0C5E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D48BB1F27835DC700A0C5E4 /* AppDelegate.swift */; };
 		2D48BB2227835DD900A0C5E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D48BB2127835DD900A0C5E4 /* SceneDelegate.swift */; };
 		2D48BB242783790100A0C5E4 /* BottomCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D48BB232783790100A0C5E4 /* BottomCardView.swift */; };
+		2D568E5E27A42D5000FBC3FB /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D568E5D27A42D5000FBC3FB /* BlurView.swift */; };
 		2D987F2A278DC1D30095AF85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D987F29278DC1D30095AF85 /* LaunchScreen.storyboard */; };
 		2DB46E122791B1C9008C9D1A /* ShawdowModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB46E112791B1C9008C9D1A /* ShawdowModifier.swift */; };
 		2DB46E142791B27F008C9D1A /* FontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB46E132791B27F008C9D1A /* FontModifier.swift */; };
@@ -59,6 +60,7 @@
 		2D48BB1F27835DC700A0C5E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "SwiftUI_Part2-main/SwiftUI_Part2_DesignCode/AppDelegate.swift"; sourceTree = "<group>"; };
 		2D48BB2127835DD900A0C5E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = "SwiftUI_Part2-main/SwiftUI_Part2_DesignCode/SceneDelegate.swift"; sourceTree = "<group>"; };
 		2D48BB232783790100A0C5E4 /* BottomCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomCardView.swift; sourceTree = "<group>"; };
+		2D568E5D27A42D5000FBC3FB /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		2D987F29278DC1D30095AF85 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "SwiftUI_Part2-main/SwiftUI_Part2_DesignCode/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		2D987F2B278DC2230095AF85 /* SwiftUI-Part2-DesignCode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwiftUI-Part2-DesignCode-Info.plist"; sourceTree = SOURCE_ROOT; };
 		2DB46E112791B1C9008C9D1A /* ShawdowModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShawdowModifier.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				2D48BB0E277DF31D00A0C5E4 /* Preview Content */,
 				2D48BB16277E2ABD00A0C5E4 /* Views */,
 				2D34101627A41EF000CA4BB1 /* CourseStore.swift */,
+				2D568E5D27A42D5000FBC3FB /* BlurView.swift */,
 			);
 			name = SwiftUI_Part2_DesignCode;
 			path = ..;
@@ -255,6 +258,7 @@
 				2DB46E462796476F008C9D1A /* CourseList.swift in Sources */,
 				2D48BB0B277DF31C00A0C5E4 /* ContentView.swift in Sources */,
 				2D3D2C9A27887E0300B02FC0 /* SectionView.swift in Sources */,
+				2D568E5E27A42D5000FBC3FB /* BlurView.swift in Sources */,
 				2D48BB18277E2ACA00A0C5E4 /* CertificateView.swift in Sources */,
 				2D34101727A41EF000CA4BB1 /* CourseStore.swift in Sources */,
 				2D48BB1C277E5FA200A0C5E4 /* BackCardView.swift in Sources */,
