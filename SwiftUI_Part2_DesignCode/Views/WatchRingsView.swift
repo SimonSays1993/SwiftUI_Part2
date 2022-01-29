@@ -20,7 +20,7 @@ struct WatchRingsView: View {
                 }
             }
             .padding(8)
-            .background(Color.white)
+            .background(Color("background3"))
             .cornerRadius(20)
             .modifier(ShawdowModifier())
             
@@ -31,7 +31,7 @@ struct WatchRingsView: View {
                          height: 32, percent: 54, showProgressRing: .constant(true))
             }
             .padding(8)
-            .background(Color.white)
+            .background(Color("background3"))
             .cornerRadius(20)
             .modifier(ShawdowModifier())
             
@@ -42,7 +42,7 @@ struct WatchRingsView: View {
                          height: 32, percent: 64, showProgressRing: .constant(true))
             }
             .padding(8)
-            .background(Color.white)
+            .background(Color("background3"))
             .cornerRadius(20)
             .modifier(ShawdowModifier())
         }

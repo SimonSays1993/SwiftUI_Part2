@@ -21,11 +21,11 @@ struct HomeView: View {
                         self.showUpdate.toggle()
                     }) {
                         Image(systemName: "bell")
-                            .renderingMode(.template)
-                            .foregroundColor(Color.black)
+                            //.renderingMode(.template)
+                            .foregroundColor(Color.primary)
                             .font(.system(size: 16, weight: .medium))
                             .frame(width: 36, height: 36)
-                            .background(Color.white)
+                            .background(Color("background3"))
                             .clipShape(Circle())
                             .shadow(color: Color.black.opacity(0.1), radius: 1, x: 0, y: 1)
                             .shadow(color: Color.black.opacity(0.2), radius: 10, x: 0, y: 5)
@@ -70,10 +70,10 @@ struct HomeView: View {
                     Spacer()
                 }
                 .padding(.leading, 30)
-                .offset(y: -60)
+                .offset(y: -80)
                 
                 SectionView(section: sectionData[2], width: UIScreen.main.bounds.width - 60, height: 275)
-                .offset(y: -60)
+                .offset(y: -80)
 
                 Spacer()
             }
